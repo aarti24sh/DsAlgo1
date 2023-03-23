@@ -10,7 +10,6 @@ import utils.TestContextSetup;
 public class SignSteps {
 	TestContextSetup context;
 	PageObjectManager pageObjectManager;
-	//String Excelpath;
 	
 	public SignSteps(TestContextSetup context) {
 		this.context=context;
@@ -19,10 +18,6 @@ public class SignSteps {
 	
 	@Given("User clicks Get Started")
 	public void user_clicks_get_started() {
-<<<<<<< HEAD
-=======
-	
->>>>>>> f927ef609366a20a3e1e2913a37b685795d4a9bb
 		context.pageObjectManager.getSignInPage().clicksgetStartedBtn();
 	    
 	}

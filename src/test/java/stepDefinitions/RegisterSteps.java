@@ -1,9 +1,8 @@
 package stepDefinitions;
 
-
-
-
-
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -21,24 +20,14 @@ public class RegisterSteps {
 	
    @Given("User clicks on Get Started")
 	public void user_clicks_on_get_started() {
-<<<<<<< HEAD
-	context.pageObjectManager.getRegisterPage().clicksgetStarted();
-		
-   }
-=======
-//	System.setProperty("webdriver.chrome.driver","C:\\Users\\ravis\\Downloads\\chromedriver_win32\\chromedriver.exe");
-context.pageObjectManager.getRegisterPage().clicksgetStarted();
-
-
-	
-	
-	WebDriver driver;
-	driver = new ChromeDriver();
-	driver .get("https://dsportalapp.herokuapp.com");
-	driver.findElement(By.className("btn")).click();
->>>>>>> f927ef609366a20a3e1e2913a37b685795d4a9bb
-		
-	    
+	   //	System.setProperty("webdriver.chrome.driver","C:\\Users\\ravis\\Downloads\\chromedriver_win32\\chromedriver.exe");
+	   context.pageObjectManager.getRegisterPage().clicksgetStarted();
+	   
+	   WebDriver driver;
+	   driver = new ChromeDriver();
+	   driver .get("https://dsportalapp.herokuapp.com");
+	   driver.findElement(By.className("btn")).click();
+   }  
 	
 
 	@When("User should see Register button in home page and clicks Register")

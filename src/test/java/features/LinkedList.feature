@@ -29,15 +29,15 @@ Background: User is logged into the DS Algo portal
      @tag1
   Scenario: User is able to write code in the "Try editor box" in the "Introduction in Linked List" page
     Given User is in the "Try editor box" with the "Run Button"
-    When User writes valid phyton code "print'Hello World'"
-    And: User clicks on "Run Button" after entering valid Phyton code
+    When User writes valid phyton code "print 'Hello World'"
+    And User clicks on "Run Button" after entering valid Phyton code
     Then User is able to see a valid output "Hello World"  
     
      @tag1
   Scenario: User is able to write code in the "Try editor box" in the "Introduction in Linked List" page
     Given User is in the "Try editor box" with the "Run Button"
     When User writes invalid phyton code "print "Hello World""
-    And: User clicks on "Run Button" after entering invalid Phyton code
+    And User clicks on "Run Button" after entering invalid Phyton code
     Then User is able to see a "Syntax Error: bad input"
     
    @tag1
@@ -56,14 +56,14 @@ Background: User is logged into the DS Algo portal
   Scenario: User is able to write code in the "Try editor box" in the "Creating Linked List in Linked List" page
     Given User is in the "Try editor box" with the "Run Button"
     When User writes valid phyton code "print'Hello World'"
-    And: User clicks on "Run Button" after entering valid Phyton code
+    And User clicks on "Run Button" after entering valid Phyton code
     Then User is able to see a valid output "Hello World"  
     
      @tag1
   Scenario: User is able to write code in the "Try editor box" in the "Creating Linked List in Linked List" page
     Given User is in the "Try editor box" with the "Run Button"
     When User writes invalid phyton code "print "Hello World""
-    And: User clicks on "Run Button" after entering invalid Phyton code
+    And User clicks on "Run Button" after entering invalid Phyton code
     Then User is able to see a "Syntax Error: bad input" 
     
    
@@ -83,14 +83,14 @@ Background: User is logged into the DS Algo portal
   Scenario: User is able to write code in the "Try editor box" in the "Types of Linked List in Linked List" page
     Given User is in the "Try editor box" with the "Run Button"
     When User writes valid phyton code "print'Hello World'"
-    And: User clicks on "Run Button" after entering valid Phyton code
+    And User clicks on "Run Button" after entering valid Phyton code
     Then User is able to see a valid output "Hello World"  
     
      @tag1
   Scenario: User is able to write code in the "Try editor box" in the "Types of Linked List in Linked List" page
     Given User is in the "Try editor box" with the "Run Button"
     When User writes invalid phyton code "print "Hello World""
-    And: User clicks on "Run Button" after entering invalid Phyton code
+    And User clicks on "Run Button" after entering invalid Phyton code
     Then User is able to see a "Syntax Error: bad input" 
     
     
@@ -111,14 +111,14 @@ Background: User is logged into the DS Algo portal
   Scenario: User is able to write code in the "Try editor box" in the "Implement Linked List in Phyton in Linked List" page
     Given User is in the "Try editor box" with the "Run Button"
     When User writes valid phyton code "print'Hello World'"
-    And: User clicks on "Run Button" after entering valid Phyton code
+    And User clicks on "Run Button" after entering valid Phyton code
     Then User is able to see a valid output "Hello World"  
     
      @tag1
   Scenario: User is able to write code in the "Try editor box" in the "Types of Linked List in Linked List" page
     Given User is in the "Try editor box" with the "Run Button"
     When User writes invalid phyton code "print "Hello World""
-    And: User clicks on "Run Button" after entering invalid Phyton code
+    And User clicks on "Run Button" after entering invalid Phyton code
     Then User is able to see a "Syntax Error: bad input" 
     
 
