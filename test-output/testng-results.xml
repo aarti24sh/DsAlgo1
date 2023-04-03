@@ -1,171 +1,680 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results skipped="0" failed="16" ignored="0" total="77" passed="61">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-19T16:23:22 PDT" name="Default suite" finished-at="2023-03-19T16:23:23 PDT" duration-ms="496">
+  <suite name="Default suite" duration-ms="2011" started-at="2023-03-24T14:51:44 EDT" finished-at="2023-03-24T14:51:46 EDT">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@78e4deb0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-03-19T16:23:22 PDT" name="Default test" finished-at="2023-03-19T16:23:23 PDT" duration-ms="496">
+    <test name="Default test" duration-ms="2011" started-at="2023-03-24T14:51:44 EDT" finished-at="2023-03-24T14:51:46 EDT">
       <class name="cucumberOptions.TestNGTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestNGTestRunner@78e4deb0]" started-at="2023-03-19T16:23:22 PDT" name="setUpClass" finished-at="2023-03-19T16:23:22 PDT" duration-ms="198" status="PASS">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="setUpClass" is-config="true" duration-ms="555" started-at="2023-03-24T14:51:44 EDT" finished-at="2023-03-24T14:51:45 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3381b4fc]]>
+                <![CDATA[org.testng.TestRunner@6404f418]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@78e4deb0]" started-at="2023-03-19T16:23:22 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-19T16:23:23 PDT" duration-ms="222" status="PASS">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="506" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:45 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Graph Representation page Validation"]]>
+                <![CDATA["User is able to navigate to the Try Here Editor page in Search the array page"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Graph Page Validation in the Numpy Ninja HomePage"]]>
+                <![CDATA["Validating Practice questions in Array Page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@78e4deb0]" started-at="2023-03-19T16:23:22 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-19T16:23:23 PDT" duration-ms="222" status="PASS">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="451" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:45 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA["sign in in dsalgo portal and entering to Tree"]]>
+                <![CDATA["User is able to navigate to Search the array Page"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Validating Tree operations"]]>
+                <![CDATA["Validating Practice questions in Array Page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@78e4deb0]" started-at="2023-03-19T16:23:22 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-19T16:23:23 PDT" duration-ms="222" status="PASS">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="507" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:45 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA["sign in in dsalgo portal and entering to Tree"]]>
+                <![CDATA["User is able to write valid code in the Search the array Try editor box"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Validating Tree operations"]]>
+                <![CDATA["Validating Practice questions in Array Page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@78e4deb0]" started-at="2023-03-19T16:23:22 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-19T16:23:23 PDT" duration-ms="222" status="PASS">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="450" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:45 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Register Page Functionality"]]>
+                <![CDATA["User is able to write valid code in the Max Consecutive ones Try editor box"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Register Page Validation"]]>
+                <![CDATA["Validating Practice questions in Array Page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@78e4deb0]" started-at="2023-03-19T16:23:22 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-19T16:23:23 PDT" duration-ms="222" status="PASS">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="447" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:45 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA["sign in dsalgo portal after entering into home page"]]>
+                <![CDATA["User is able to navigate to the Try Here Editor page in Max Consecutive ones page"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Validating Sign-in"]]>
+                <![CDATA["Validating Practice questions in Array Page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@78e4deb0]" started-at="2023-03-19T16:23:22 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-19T16:23:23 PDT" duration-ms="222" status="PASS">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="466" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:45 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA["sign in in dsalgo portal and entering to Tree"]]>
+                <![CDATA["User is able to navigate to Max Consecutive ones Page"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Validating Tree operations"]]>
+                <![CDATA["Validating Practice questions in Array Page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@78e4deb0]" started-at="2023-03-19T16:23:22 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-19T16:23:23 PDT" duration-ms="222" status="PASS">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="448" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:45 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA["sign in in dsalgo portal and entering to Tree"]]>
+                <![CDATA["User is able to navigate to Find numbers with even number of digits ones Page"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Validating Tree operations"]]>
+                <![CDATA["Validating Practice questions in Array Page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@78e4deb0]" started-at="2023-03-19T16:23:22 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-19T16:23:23 PDT" duration-ms="222" status="PASS">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="504" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:45 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA["sign in in dsalgo portal and entering to Tree"]]>
+                <![CDATA["User is able to navigate to the Try Here Editor page in Find numbers with even number of digits page"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Validating Tree operations"]]>
+                <![CDATA["Validating Practice questions in Array Page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@78e4deb0]" started-at="2023-03-19T16:23:22 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-19T16:23:23 PDT" duration-ms="222" status="PASS">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="454" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:45 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA["sign in in dsalgo portal and entering to Tree"]]>
+                <![CDATA["User is able to write valid code in the Find numbers with even number of digits Try editor box"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Validating Tree operations"]]>
+                <![CDATA["Validating Practice questions in Array Page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@78e4deb0]" started-at="2023-03-19T16:23:22 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-19T16:23:23 PDT" duration-ms="222" status="PASS">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="500" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:45 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to Squares of Sorted Array Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Practice questions in Array Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="209" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the Try Here Editor page in Squares of Sorted Array page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Practice questions in Array Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="254" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write valid code in the Squares of Sorted Array Try editor box"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Practice questions in Array Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="228" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write invalid code in the Squares of Sorted Array Try editor box"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Practice questions in Array Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="493" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the Array Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validating Array page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is in the Homepage after login' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("User is in the Homepage after login")
+public void user_is_in_the_homepage_after_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is in the Homepage after login' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("User is in the Homepage after login")
+public void user_is_in_the_homepage_after_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="110" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:45 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to Array in Python Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validating Array page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="380" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write valid code in the Array in python Try editor box"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validating Array page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is in the Try editor page' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("User is in the Try editor page")
+public void user_is_in_the_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is in the Try editor page' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("User is in the Try editor page")
+public void user_is_in_the_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="209" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the Try Here Editor page in Array in Python page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validating Array page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="91" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:45 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to Array Using List Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validating Array page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="187" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the Try Here Editor page in Array Using List page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validating Array page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="364" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write valid code in the Array Using List Try editor box"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validating Array page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is in the Try editor page' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("User is in the Try editor page")
+public void user_is_in_the_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is in the Try editor page' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("User is in the Try editor page")
+public void user_is_in_the_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="95" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to Basic Operations in List Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validating Array page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="160" started-at="2023-03-24T14:51:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the Try Here Editor page in Basic Operations in List page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validating Array page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="226" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write valid code in the Basic Operations in List Try editor box"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validating Array page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User is in the Try editor page' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("User is in the Try editor page")
+public void user_is_in_the_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User is in the Try editor page' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("User is in the Try editor page")
+public void user_is_in_the_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="90" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to Applications of Array Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validating Array page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="130" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the Try Here Editor page in Applications of Arrayt page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validating Array page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="66" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write valid code in the Applications of Array Try editor box"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validating Array page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="32" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write invalid code in the Applications of Array Try editor box"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validating Array page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="181" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the Time Complexity Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validating Data Structure page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="41" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the Time Complexity Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["validating Data Structure page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="35" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
           <params>
             <param index="0">
               <value>
@@ -181,7 +690,1951 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@78e4deb0]" started-at="2023-03-19T16:23:23 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-19T16:23:23 PDT" duration-ms="12" status="PASS">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="38" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Graph Representation page Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Graph Page Validation in the Numpy Ninja HomePage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="137" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the "Linked List" Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Linked List page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="141" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the "Introduction" Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Linked List page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="162" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the "Try Here box" in the "Introduction in Linked List" Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Linked List page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="158" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write code in the "Try editor box" in the "Introduction in Linked List" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Linked List page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="137" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write code in the "Try editor box" in the "Introduction in Linked List" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Linked List page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="64" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the "Creating Linked List" Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Linked List page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="63" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the "Try Here box" in the "Creating Linked List in Linked List" Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Linked List page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="42" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write code in the "Try editor box" in the "Creating Linked List in Linked List" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Linked List page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="27" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write code in the "Try editor box" in the "Creating Linked List in Linked List" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Linked List page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="23" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the "Types of Linked List" Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Linked List page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="30" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the "Try Here box" in the "Types of Linked List in Linked List" Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Linked List page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="26" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write code in the "Try editor box" in the "Types of Linked List in Linked List" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Linked List page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="128" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write code in the "Try editor box" in the "Types of Linked List in Linked List" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Linked List page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="105" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the "Implement Linked List in Phyton" Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Linked List page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="60" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the "Try Here box" in the "Implement Linked List in Phyton in Linked List" Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Linked List page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="102" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write code in the "Try editor box" in the "Implement Linked List in Phyton in Linked List" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Linked List page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="99" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write code in the "Try editor box" in the "Types of Linked List in Linked List" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Linked List page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="125" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario outline"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Linked List page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I want to write a step with name1' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I want to write a step with name1")
+public void i_want_to_write_a_step_with_name1() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I check for the {int} in step")
+public void i_check_for_the_in_step(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I verify the success in step")
+public void i_verify_the_success_in_step() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I want to write a step with name1' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I want to write a step with name1")
+public void i_want_to_write_a_step_with_name1() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I check for the {int} in step")
+public void i_check_for_the_in_step(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I verify the success in step")
+public void i_verify_the_success_in_step() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="183" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title of your scenario outline"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Linked List page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I want to write a step with name2' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I want to write a step with name2")
+public void i_want_to_write_a_step_with_name2() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I check for the {int} in step")
+public void i_check_for_the_in_step(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I verify the Fail in step")
+public void i_verify_the_fail_in_step() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I want to write a step with name2' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I want to write a step with name2")
+public void i_want_to_write_a_step_with_name2() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I check for the {int} in step")
+public void i_check_for_the_in_step(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I verify the Fail in step")
+public void i_verify_the_fail_in_step() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="189" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["sign in in dsalgo portal and entering to Queue"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue function after signing in"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User should see login screen' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User should see login screen")
+public void user_should_see_login_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters username as {string} and password as {string}")
+public void user_enters_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click Login button")
+public void click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see {string} msg")
+public void user_should_see_msg(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see tryEditor page")
+public void user_should_see_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("enters following code in editor")
+public void enters_following_code_in_editor(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User should see login screen' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User should see login screen")
+public void user_should_see_login_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters username as {string} and password as {string}")
+public void user_enters_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click Login button")
+public void click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see {string} msg")
+public void user_should_see_msg(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see tryEditor page")
+public void user_should_see_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("enters following code in editor")
+public void enters_following_code_in_editor(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="176" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["sign in in dsalgo portal and entering to Queue"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue function after signing in"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User should see login screen' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User should see login screen")
+public void user_should_see_login_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters username as {string} and password as {string}")
+public void user_enters_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click Login button")
+public void click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see {string} msg")
+public void user_should_see_msg(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see tryEditor page")
+public void user_should_see_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("enters following code in editor")
+public void enters_following_code_in_editor(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User should see login screen' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User should see login screen")
+public void user_should_see_login_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters username as {string} and password as {string}")
+public void user_enters_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click Login button")
+public void click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see {string} msg")
+public void user_should_see_msg(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see tryEditor page")
+public void user_should_see_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("enters following code in editor")
+public void enters_following_code_in_editor(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="87" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["sign in in dsalgo portal and entering to Queue"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue function after signing in"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User should see login screen' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User should see login screen")
+public void user_should_see_login_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters username as {string} and password as {string}")
+public void user_enters_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click Login button")
+public void click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see {string} msg")
+public void user_should_see_msg(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see tryEditor page")
+public void user_should_see_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("enters following code in editor")
+public void enters_following_code_in_editor(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User should see login screen' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User should see login screen")
+public void user_should_see_login_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters username as {string} and password as {string}")
+public void user_enters_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click Login button")
+public void click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see {string} msg")
+public void user_should_see_msg(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see tryEditor page")
+public void user_should_see_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("enters following code in editor")
+public void enters_following_code_in_editor(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="104" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["sign in in dsalgo portal and entering to Queue"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Queue function after signing in"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User should see login screen' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User should see login screen")
+public void user_should_see_login_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters username as {string} and password as {string}")
+public void user_enters_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click Login button")
+public void click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see {string} msg")
+public void user_should_see_msg(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see tryEditor page")
+public void user_should_see_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("enters following code in editor")
+public void enters_following_code_in_editor(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User should see login screen' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User should see login screen")
+public void user_should_see_login_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters username as {string} and password as {string}")
+public void user_enters_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click Login button")
+public void click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see {string} msg")
+public void user_should_see_msg(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see tryEditor page")
+public void user_should_see_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("enters following code in editor")
+public void enters_following_code_in_editor(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="28" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["sign in dsalgo portal after entering into home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Sign-in"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="19" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the "Stack" Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the slack on DS Algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="71" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the "Operations in Stack" Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the slack on DS Algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="77" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the "Try Here box" in the "Operations in Stack" Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the slack on DS Algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="127" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write code in the "Try editor box" in the "Operations in Stack" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the slack on DS Algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="117" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write code in the "Try editor box" in the "Operations in Stack" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the slack on DS Algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="75" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the "Implementation" Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the slack on DS Algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="67" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the "Try Here box" in the "Implementation" Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the slack on DS Algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="32" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write code in the "Try editor box" in the "Implementation" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the slack on DS Algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="75" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write code in the "Try editor box" in the "Implementation" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the slack on DS Algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="21" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the "Applications" Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the slack on DS Algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="103" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the "Try Here box" in the "Applications" Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the slack on DS Algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="65" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write code in the "Try editor box" in the "Applications" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the slack on DS Algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="47" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to write code in the "Try editor box" in the "Applications" page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the slack on DS Algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="116" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is able to navigate to the "Practice Questions" Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the slack on DS Algo application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="106" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["sign in in dsalgo portal and entering to Tree"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Tree operations"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User should see login screen' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User should see login screen")
+public void user_should_see_login_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters username as {string} and password as {string}")
+public void user_enters_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click Login button")
+public void click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see {string} msg")
+public void user_should_see_msg(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see tryEditor page")
+public void user_should_see_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("enters following code in editor")
+public void enters_following_code_in_editor(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User should see login screen' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User should see login screen")
+public void user_should_see_login_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters username as {string} and password as {string}")
+public void user_enters_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click Login button")
+public void click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see {string} msg")
+public void user_should_see_msg(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see tryEditor page")
+public void user_should_see_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("enters following code in editor")
+public void enters_following_code_in_editor(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="74" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["sign in in dsalgo portal and entering to Tree"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Tree operations"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User should see login screen' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User should see login screen")
+public void user_should_see_login_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters username as {string} and password as {string}")
+public void user_enters_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click Login button")
+public void click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see {string} msg")
+public void user_should_see_msg(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see tryEditor page")
+public void user_should_see_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("enters following code in editor")
+public void enters_following_code_in_editor(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User should see login screen' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User should see login screen")
+public void user_should_see_login_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters username as {string} and password as {string}")
+public void user_enters_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click Login button")
+public void click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see {string} msg")
+public void user_should_see_msg(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see tryEditor page")
+public void user_should_see_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("enters following code in editor")
+public void enters_following_code_in_editor(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="118" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["sign in in dsalgo portal and entering to Tree"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Tree operations"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User should see login screen' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User should see login screen")
+public void user_should_see_login_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters username as {string} and password as {string}")
+public void user_enters_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click Login button")
+public void click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see {string} msg")
+public void user_should_see_msg(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see tryEditor page")
+public void user_should_see_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("enters following code in editor")
+public void enters_following_code_in_editor(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User should see login screen' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User should see login screen")
+public void user_should_see_login_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters username as {string} and password as {string}")
+public void user_enters_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click Login button")
+public void click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see {string} msg")
+public void user_should_see_msg(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see tryEditor page")
+public void user_should_see_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("enters following code in editor")
+public void enters_following_code_in_editor(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="94" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["sign in in dsalgo portal and entering to Tree"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Tree operations"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User should see login screen' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User should see login screen")
+public void user_should_see_login_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters username as {string} and password as {string}")
+public void user_enters_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click Login button")
+public void click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see {string} msg")
+public void user_should_see_msg(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see tryEditor page")
+public void user_should_see_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("enters following code in editor")
+public void enters_following_code_in_editor(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User should see login screen' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User should see login screen")
+public void user_should_see_login_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters username as {string} and password as {string}")
+public void user_enters_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click Login button")
+public void click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see {string} msg")
+public void user_should_see_msg(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see tryEditor page")
+public void user_should_see_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("enters following code in editor")
+public void enters_following_code_in_editor(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="73" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["sign in in dsalgo portal and entering to Tree"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Tree operations"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User should see login screen' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User should see login screen")
+public void user_should_see_login_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters username as {string} and password as {string}")
+public void user_enters_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click Login button")
+public void click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see {string} msg")
+public void user_should_see_msg(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see tryEditor page")
+public void user_should_see_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("enters following code in editor")
+public void enters_following_code_in_editor(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User should see login screen' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User should see login screen")
+public void user_should_see_login_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters username as {string} and password as {string}")
+public void user_enters_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click Login button")
+public void click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see {string} msg")
+public void user_should_see_msg(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see tryEditor page")
+public void user_should_see_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("enters following code in editor")
+public void enters_following_code_in_editor(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="110" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["sign in in dsalgo portal and entering to Tree"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Tree operations"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'User should see login screen' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User should see login screen")
+public void user_should_see_login_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters username as {string} and password as {string}")
+public void user_enters_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click Login button")
+public void click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see {string} msg")
+public void user_should_see_msg(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see tryEditor page")
+public void user_should_see_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("enters following code in editor")
+public void enters_following_code_in_editor(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'User should see login screen' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Then("User should see login screen")
+public void user_should_see_login_screen() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters username as {string} and password as {string}")
+public void user_enters_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click Login button")
+public void click_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see {string} msg")
+public void user_should_see_msg(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should see tryEditor page")
+public void user_should_see_try_editor_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("enters following code in editor")
+public void enters_following_code_in_editor(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="42" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
           <params>
             <param index="0">
               <value>
@@ -197,7 +2650,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestNGTestRunner@78e4deb0]" started-at="2023-03-19T16:23:23 PDT" name="tearDownClass" finished-at="2023-03-19T16:23:23 PDT" duration-ms="12" status="PASS">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="runScenario" duration-ms="31" started-at="2023-03-24T14:51:46 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-24T14:51:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register Page Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestNGTestRunner@365c30cc]" name="tearDownClass" is-config="true" duration-ms="15" started-at="2023-03-24T14:51:46 EDT" finished-at="2023-03-24T14:51:46 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

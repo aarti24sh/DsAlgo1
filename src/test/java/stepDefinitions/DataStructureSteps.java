@@ -1,104 +1,103 @@
 package stepDefinitions;
 
+import pageObjects.PageObjectManager;
+import utils.TestContextSetup;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+
 import io.cucumber.java.en.When;
 
-public class DataStructureSteps {
-	@When("User signed into DS_Portal")
-	public void user_signed_into_ds_portal() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+
+public class DataStructureSteps 
+{
+	
+	TestContextSetup context1;
+	PageObjectManager pageObjectManager;
+	 public WebDriver driver;
+	
+	public DataStructureSteps(TestContextSetup context1) {
+		this.context1=context1;
+		
+	}
+	
+	
+	@Given("User is logged into the DS Algo portal")
+	public void user_is_logged_into_the_ds_algo_portal() {
+		context1.pageObjectManager.getSignInPage().clicksgetStartedBtn();
 	}
 
-	@Then("User stays in the homepage")
-	public void user_stays_in_the_homepage() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@When("User sign in into DS_Portal")
+	public void user_sign_in_into_ds_portal() {
+		context1.pageObjectManager.getSignInPage().loginBtnFunction();
 	}
 
-	@When("User selects the Datastructure by clicking Get Started")
-	public void user_selects_the_datastructure_by_clicking_get_started() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@Then("User selects DataStructure by clicking Get started")
+	public void user_selects_data_structure_by_clicking_get_started() {
+		context1.pageObjectManager.getDSIntroPage().getStartedDSFunction();
+	    
 	}
 
-	@Then("User is redirected to the Data Structure Page")
-	public void user_is_redirected_to_the_data_structure_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@Then("User is in DataStructure HomePage")
+	public void user_is_in_data_structure_home_page() {
+		
+		context1.pageObjectManager.getDSIntroPage().DSTitleDisplay();
 	}
 
-	@Given("User is in the DataStructure page after login")
-	public void user_is_in_the_data_structure_page_after_login() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@Given("User is in the DataStructure page")
+	public void user_is_in_the_data_structure_page() {
+		
+		context1.pageObjectManager.getDSIntroPage().DSTitleDisplay();
 	}
 
-	@When("User clicks on the Time complexity")
-	public void user_clicks_on_the_time_complexity() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@When("User clicks on the Time complexity, User is redirected to the Time complexity page")
+	public void user_clicks_on_the_time_complexity_user_is_redirected_to_the_time_complexity_page() {
+		context1.pageObjectManager.getDSIntroPage().Time_complexity();
+	   
 	}
 
-	@Then("User is redirected to the Time complexity page")
-	public void user_is_redirected_to_the_time_complexity_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@Then("User clicks on the Try Here box and redirected to the Try editor page")
+	public void user_clicks_on_the_try_here_box_and_redirected_to_the_try_editor_page() {
+		context1.pageObjectManager.getDSIntroPage().Time_tryfunc();
 	}
 
-	@Given("User is in the Time complexity after login")
-	public void user_is_in_the_time_complexity_after_login() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@When("User enters following code in ds editor")
+	public void user_enters_following_code_in_ds_editor(DataTable dataTable) {
+		
+	    List<String> value=dataTable.asList();
+	    String input=value.get(0);
+	    context1.pageObjectManager.getDSIntroPage().try_codefun();
+	    driver.findElement(By.xpath("//*[@id='answer_form']/div/div/div[6]/div[1]/div/div/div/div[5]/div/pre")).sendKeys(input);
+	    
+	     
 	}
 
-	@When("User clicks on the Try Here box in  Time complexity")
-	public void user_clicks_on_the_try_here_box_in_time_complexity() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@When("User clicks on Run in dspage")
+	public void user_clicks_on_run_in_dspage() {
+		context1.pageObjectManager.getDSIntroPage().run_code();
 	}
 
-	@Then("User is redirected to the Try editor page of  Time complexity")
-	public void user_is_redirected_to_the_try_editor_page_of_time_complexity() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@Then("User is able to see a output {string}")
+	public void user_is_able_to_see_a_output(String string) {
+	    if(string.equalsIgnoreCase("true"))
+	    {
+	    	System.out.println("success");
+	    }
+	    else if(string.equalsIgnoreCase("false"))
+	    {
+	   
+	    }
 	}
 
-	@When("User enters following code in  Time complexity editor")
-	public void user_enters_following_code_in_time_complexity_editor(io.cucumber.datatable.DataTable dataTable) {
-	    // Write code here that turns the phrase above into concrete actions
-	    // For automatic transformation, change DataTable to one of
-	    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
-	    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
-	    // Double, Byte, Short, Long, BigInteger or BigDecimal.
-	    //
-	    // For other transformations you can register a DataTableType.
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@When("User clicks on Run in Time complexity")
-	public void user_clicks_on_run_in_time_complexity() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@Then("User is able to see a valid output Hello this is time complexity of datastructures")
-	public void user_is_able_to_see_a_valid_output_hello_this_is_time_complexity_of_datastructures() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@When("User enters following code in  Time complexity editor as {string}")
-	public void user_enters_following_code_in_time_complexity_editor_as(String string) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@Then("User is able to see a Syntax Error")
-	public void user_is_able_to_see_a_syntax_error() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@When("User enter {string}")
+	public void user_enter(String string) {
+		 context1.pageObjectManager.getDSIntroPage().try_codefun();
+		 driver.findElement(By.xpath("//*[@id='answer_form']/div/div/div[6]/div[1]/div/div/div/div[5]/div/pre")).sendKeys(string);
 	}
 
 
