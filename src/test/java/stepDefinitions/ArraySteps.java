@@ -1,278 +1,163 @@
 package stepDefinitions;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pageObjects.PageObjectManager;
+import utils.TestContextSetup;
 
 public class ArraySteps {
+	
+	TestContextSetup context1;
+	PageObjectManager pageObjectManager;
+	 public WebDriver driver;
+	
+	public ArraySteps(TestContextSetup context1) {
+		this.context1=context1;
+		
+	}
 	@When("user is a registered user")
 	public void user_is_a_registered_user() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+		context1.pageObjectManager.getSignInPage().clicksgetStartedBtn();
+		context1.pageObjectManager.getSignInPage().loginBtnFunction();
 	}
 
 	@Then("User is in homepage")
 	public void user_is_in_homepage() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	    
 	}
 
-	@When("User selects the Array by clicking Get Started")
+	@Then("User selects the Array by clicking Get Started")
 	public void user_selects_the_array_by_clicking_get_started() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+		context1.pageObjectManager.getArrayPage().getStartedArray();
 	}
 
-	@Then("User is redirected to the Array Page")
-	public void user_is_redirected_to_the_array_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@Then("User is in the Array Page")
+	public void user_is_in_the_array_page() {
+		context1.pageObjectManager.getArrayPage().arrayTitleDisplay();
 	}
 
-	@Given("User is in the Array page after login")
-	public void user_is_in_the_array_page_after_login() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@Given("User is in array page")
+	public void user_is_in_array_page() {
+		context1.pageObjectManager.getArrayPage().arrayTitleDisplay();
 	}
 
-	@When("User clicks on the Array in Python")
-	public void user_clicks_on_the_array_in_python() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@When("User clicks on the Array in Python and redirected to the Array in Python page")
+	public void user_clicks_on_the_array_in_python_and_redirected_to_the_array_in_python_page() {
+		context1.pageObjectManager.getArrayPage().arr_phython();
 	}
 
-	@Then("User is redirected to the Array in Python page")
-	public void user_is_redirected_to_the_array_in_python_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@Given("User is in the Array in Python after login")
-	public void user_is_in_the_array_in_python_after_login() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@When("User clicks on the Try Here box in Array in Python page")
-	public void user_clicks_on_the_try_here_box_in_array_in_python_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@Then("User is redirected to the Try editor page in Array in Python page")
-	public void user_is_redirected_to_the_try_editor_page_in_array_in_python_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@Then("User clicks on the Try Here box in Array in Python page and redirected to the Try editor page")
+	public void user_clicks_on_the_try_here_box_in_array_in_python_page_and_redirected_to_the_try_editor_page() {
+		context1.pageObjectManager.getArrayPage().array_tryfunc();
 	}
 
 	@When("User enters following code in python editor")
 	public void user_enters_following_code_in_python_editor(io.cucumber.datatable.DataTable dataTable) {
-	    // Write code here that turns the phrase above into concrete actions
-	    // For automatic transformation, change DataTable to one of
-	    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
-	    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
-	    // Double, Byte, Short, Long, BigInteger or BigDecimal.
-	    //
-	    // For other transformations you can register a DataTableType.
-	    throw new io.cucumber.java.PendingException();
+		 List<String> value=dataTable.asList();
+		    String input=value.get(0);
+		context1.pageObjectManager.getArrayPage().arr_trycode();
+		 driver.findElement(By.xpath("//*[@id='answer_form']/div/div/div[6]/div[1]/div/div/div/div[5]/div/pre")).sendKeys(input);
 	}
 
-	@When("User clicks on Runin Array in Python page")
-	public void user_clicks_on_runin_array_in_python_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@When("User clicks on Run in Array in Python page")
+	public void user_clicks_on_run_in_array_in_python_page() {
+		context1.pageObjectManager.getArrayPage().array_run();
 	}
 
-	@Then("User is able to see a valid output Hello this is Array in python")
-	public void user_is_able_to_see_a_valid_output_hello_this_is_array_in_python() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@Then("User is able to see a valid output {string}")
+	public void user_is_able_to_see_a_valid_output(String string) {
+		 if(string.equalsIgnoreCase("true"))
+		    {
+		    	System.out.println("success");
+		    }
+		    else if(string.equalsIgnoreCase("false"))
+		    {
+		   
+		    }
+		
 	}
 
-	@When("User clicks on the Array Using List")
-	public void user_clicks_on_the_array_using_list() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	
+
+	@When("User clicks on the Array Using List and redirected to the Array Using List page")
+	public void user_clicks_on_the_array_using_list_and_redirected_to_the_array_using_list_page() {
+		context1.pageObjectManager.getArrayPage().arr_listfun();
 	}
 
-	@Then("User is redirected to the Array Using List page")
-	public void user_is_redirected_to_the_array_using_list_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@Given("User is in the Array Using List after login")
-	public void user_is_in_the_array_using_list_after_login() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@When("User clicks on the Try Here box in Array Using List page")
-	public void user_clicks_on_the_try_here_box_in_array_using_list_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@Then("User is redirected to the Try editor page Array Using List page")
-	public void user_is_redirected_to_the_try_editor_page_array_using_list_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@Then("User clicks on the Try Here box in Array Using List page and redirected to the Try editor page")
+	public void user_clicks_on_the_try_here_box_in_array_using_list_page_and_redirected_to_the_try_editor_page() {
+		context1.pageObjectManager.getArrayPage().array_tryfunc();
 	}
 
 	@When("User enters following code  in  List editor")
 	public void user_enters_following_code_in_list_editor(io.cucumber.datatable.DataTable dataTable) {
-	    // Write code here that turns the phrase above into concrete actions
-	    // For automatic transformation, change DataTable to one of
-	    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
-	    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
-	    // Double, Byte, Short, Long, BigInteger or BigDecimal.
-	    //
-	    // For other transformations you can register a DataTableType.
-	    throw new io.cucumber.java.PendingException();
+		List<String> value=dataTable.asList();
+	    String input=value.get(0);
+	context1.pageObjectManager.getArrayPage().arr_trycode();
+	 driver.findElement(By.xpath("//*[@id='answer_form']/div/div/div[6]/div[1]/div/div/div/div[5]/div/pre")).sendKeys(input);
 	}
 
 	@When("User clicks on Run in Array Using List page")
 	public void user_clicks_on_run_in_array_using_list_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+		context1.pageObjectManager.getArrayPage().array_run();
 	}
 
-	@Then("User is able to see a valid output Hello this is Array Using List")
-	public void user_is_able_to_see_a_valid_output_hello_this_is_array_using_list() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@When("User clicks on the Basic Operations in List and redirected to List page")
+	public void user_clicks_on_the_basic_operations_in_list_and_redirected_to_list_page() {
+		context1.pageObjectManager.getArrayPage().arr_basic_operations();
 	}
 
-	@When("User clicks on the Basic Operations in List")
-	public void user_clicks_on_the_basic_operations_in_list() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@Then("User is redirected to the Basic Operations in List page")
-	public void user_is_redirected_to_the_basic_operations_in_list_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@Given("User is in the Basic Operations in List after login")
-	public void user_is_in_the_basic_operations_in_list_after_login() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@When("User clicks on the Try Here box in Basic Operations in List Page")
-	public void user_clicks_on_the_try_here_box_in_basic_operations_in_list_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@Then("User is redirected to the Try editor page Basic Operations in List Page")
-	public void user_is_redirected_to_the_try_editor_page_basic_operations_in_list_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@Then("User clicks on the Try Here box and redirected to the Try editor page Basic Operations in List Page")
+	public void user_clicks_on_the_try_here_box_and_redirected_to_the_try_editor_page_basic_operations_in_list_page() {
+		context1.pageObjectManager.getArrayPage().array_tryfunc();
 	}
 
 	@When("User enters following code in text editor")
 	public void user_enters_following_code_in_text_editor(io.cucumber.datatable.DataTable dataTable) {
-	    // Write code here that turns the phrase above into concrete actions
-	    // For automatic transformation, change DataTable to one of
-	    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
-	    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
-	    // Double, Byte, Short, Long, BigInteger or BigDecimal.
-	    //
-	    // For other transformations you can register a DataTableType.
-	    throw new io.cucumber.java.PendingException();
+		List<String> value=dataTable.asList();
+	    String input=value.get(0);
+	context1.pageObjectManager.getArrayPage().arr_trycode();
+	 driver.findElement(By.xpath("//*[@id='answer_form']/div/div/div[6]/div[1]/div/div/div/div[5]/div/pre")).sendKeys(input);
 	}
 
 	@When("User clicks on Run in Basic Operations in List Page")
 	public void user_clicks_on_run_in_basic_operations_in_list_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+		context1.pageObjectManager.getArrayPage().array_run();
 	}
 
-	@Then("User is able to see a valid output Hello this is Basic Operations in List")
-	public void user_is_able_to_see_a_valid_output_hello_this_is_basic_operations_in_list() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@When("User clicks on the Applications of Array,redirected to the Applications of Array page")
+	public void user_clicks_on_the_applications_of_array_redirected_to_the_applications_of_array_page() {
+		context1.pageObjectManager.getArrayPage().arr_applications();
 	}
 
-	@When("User clicks on the Applications of Array")
-	public void user_clicks_on_the_applications_of_array() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@Then("User is redirected to the Applications of Array page")
-	public void user_is_redirected_to_the_applications_of_array_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@Given("User is in the Applications of Array after login")
-	public void user_is_in_the_applications_of_array_after_login() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@When("User clicks on the Try Here box in Applications of Array Page")
-	public void user_clicks_on_the_try_here_box_in_applications_of_array_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@Then("User is redirected to the Try editor page in Applications of Array Page")
-	public void user_is_redirected_to_the_try_editor_page_in_applications_of_array_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@Then("User clicks on the Try Here box,redirected to Applications of Array Page")
+	public void user_clicks_on_the_try_here_box_redirected_to_applications_of_array_page() {
+		context1.pageObjectManager.getArrayPage().array_tryfunc();
 	}
 
 	@When("User enters following code in applications editor")
 	public void user_enters_following_code_in_applications_editor(io.cucumber.datatable.DataTable dataTable) {
-	    // Write code here that turns the phrase above into concrete actions
-	    // For automatic transformation, change DataTable to one of
-	    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
-	    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
-	    // Double, Byte, Short, Long, BigInteger or BigDecimal.
-	    //
-	    // For other transformations you can register a DataTableType.
-	    throw new io.cucumber.java.PendingException();
+		List<String> value=dataTable.asList();
+	    String input=value.get(0);
+	context1.pageObjectManager.getArrayPage().arr_trycode();
+	 driver.findElement(By.xpath("//*[@id='answer_form']/div/div/div[6]/div[1]/div/div/div/div[5]/div/pre")).sendKeys(input);
 	}
 
 	@When("User clicks on Run in Applications of Array Page")
 	public void user_clicks_on_run_in_applications_of_array_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+		context1.pageObjectManager.getArrayPage().array_run();
 	}
 
-	@Then("User is able to see a valid output in editor")
-	public void user_is_able_to_see_a_valid_output_in_editor() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	@When("User enters in array pge {string}")
+	public void user_enters_in_array_pge(String string) {
+		context1.pageObjectManager.getArrayPage().arr_trycode();
+		 driver.findElement(By.xpath("//*[@id='answer_form']/div/div/div[6]/div[1]/div/div/div/div[5]/div/pre")).sendKeys(string);
 	}
-
-	@Given("User is in the Try applications array editor page")
-	public void user_is_in_the_try_applications_array_editor_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@When("User enters following code in app array editor as {string}")
-	public void user_enters_following_code_in_app_array_editor_as(String string) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@When("User clicks on Run in Applications of Array")
-	public void user_clicks_on_run_in_applications_of_array() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@Then("User is able to see an error")
-	public void user_is_able_to_see_an_error() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
+	
 }
