@@ -1,32 +1,48 @@
 package pageObjects;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class SignInPage {
 
+	public WebDriver driver;
+	WebDriverWait wait;
 	public SignInPage(WebDriver driver) {
-		// TODO Auto-generated constructor stub
+		this.driver = driver;
+		PageFactory.initElements(driver,this);
+		wait=new WebDriverWait(this.driver,Duration.ofSeconds(1));
 	}
-
-	public void clicksgetStartedBtn() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void signInBtnFunction() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void textFieldVisibility() {
-		// TODO Auto-generated method stub
-		
-	}
-
+	@FindBy(xpath="//input[@type='text']")
+	WebElement usernamefield;
+	@FindBy(xpath="//input[@type='password']")
+	WebElement pwdfield;
+	@FindBy(xpath="//input[@type='submit']")
+	WebElement loginBtn;
+	@FindBy(xpath="//div[@class='alert alert-primary']")
+	WebElement LoginFailAert;
+	
 	public void loginBtnFunction() {
-		// TODO Auto-generated method stub
-		
+		loginBtn.click();
 	}
+	public void textFieldVisibility() {
+		usernamefield.isDisplayed();
+		pwdfield.isDisplayed();
+	}
+	public void login(String un,String pd) {
+		usernamefield.sendKeys(un);
+		pwdfield.sendKeys(pd);
+	}
+	public void loginFailAlert() {
+		LoginFailAert.isDisplayed();
+		System.out.println(LoginFailAert);
+	}
+	
+
 	
 	
 
