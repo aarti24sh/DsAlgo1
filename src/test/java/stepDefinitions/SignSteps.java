@@ -14,7 +14,7 @@ public class SignSteps {
 	//String Excelpath ;
 	
 
-	public SignInSteps(TestContextSetup context) {
+	public SignSteps(TestContextSetup context) {
 		this.context=context;
 		
 	}

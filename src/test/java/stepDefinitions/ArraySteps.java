@@ -23,7 +23,7 @@ public class ArraySteps {
 	}
 	@When("user is a registered user")
 	public void user_is_a_registered_user() {
-		context1.pageObjectManager.getSignInPage().clicksgetStartedBtn();
+		//context1.pageObjectManager.getSignInPage().clicksgetStartedBtn();
 		context1.pageObjectManager.getSignInPage().loginBtnFunction();
 	}
 

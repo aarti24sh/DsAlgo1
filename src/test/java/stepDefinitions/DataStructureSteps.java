@@ -29,7 +29,7 @@ public class DataStructureSteps
 	
 	@Given("User is logged into the DS Algo portal")
 	public void user_is_logged_into_the_ds_algo_portal() {
-		context1.pageObjectManager.getSignInPage().clicksgetStartedBtn();
+		//context1.pageObjectManager.getSignInPage().clicksgetStartedBtn();
 	}
 
 	@When("User sign in into DS_Portal")

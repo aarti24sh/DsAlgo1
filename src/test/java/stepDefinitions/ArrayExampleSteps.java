@@ -24,7 +24,7 @@ public class ArrayExampleSteps {
 	
 	@Given("User is logged in and registered user")
 	public void user_is_logged_in_and_registered_user() {
-		context1.pageObjectManager.getSignInPage().clicksgetStartedBtn();
+		//context1.pageObjectManager.getSignInPage().clicksgetStartedBtn();
 		context1.pageObjectManager.getSignInPage().loginBtnFunction();
 	}
 
